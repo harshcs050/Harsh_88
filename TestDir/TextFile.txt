@@ -1,2 +1,118 @@
-This is a text file.
-All you need to do is add text only.
+Waterfall Model
+Prototype
+V-Shaped
+Iteration
+Spriral
+
+SW devl used to be on the whole application
+
+
+
+Agile and Devops(implementing agile culture - help of tools)
+
+ISI(Consumerables/Goods) /ISO(Process)
+CMM- Capability Maturity Model(Software Devl. Process)
+
+Login Process/Regn Process (Sprint 1)
+  Scrum meeting (daily stanup meet)
+
+Product Owner:Scrum Master
+
+1 Sprint will span for a minimum 2 weeks and max 4 weeks
+2. Sprint Review : Involves all stakeholders
+3. Sprint Restospective meeting
+
+artifacts : Burn down/up chart
+
+DevOps- Automation process of the agile culture
+
+NFR : Non functional References/requirements
+     - Availability
+     - Scalability
+     - Reliability
+     - Performance
+     - Security
+
+Git:Is an Open source distributed version Control System
+
+GitHub: Source Code Management(SCM). Linus Trovaldus
+
+Git Index : Is a staging directory
+
+Git Commands & Steps
+Create a Folder as a working folder in any drive of your machine
+1.Git Init : This command will initialize the folder as a git Folder with lots of metadata information
+2. You can configure your name and email using the below command
+- git config --global user.name "<owner name>"
+  git config --global user.email "<mail id with which you created your git account">
+
+3. Create some files using echo/touch/cat
+4 add files to the staging directory using below options
+  - git add <filename> or git add .
+5.You should commit the changes made to the staging directory as below
+ - git commit -m "message"
+6. Next we need to map our local repo with remote repo using
+   -git remote add origin <url>(ensure you copy the remote repo url in the https format
+7. Push the commits to the remote repo
+  - git push -u origin master/main
+8. If any changes are made to the remote repo, you can pull them from the remote using
+  -git pull origin master/main
+
+This will enable complete sync
+
+9. For knowing the status of activities you can use
+  - git status
+10. use -git log to see all the commits with their ish number
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
